@@ -7,6 +7,8 @@ const maxDisplayed = 40;
 const NewsList = document.getElementById("news-list");
 const SourcesList = document.getElementById("sources-list");
 
+document.getElementById("load-more-btn").onclick = LoadMore;
+
 const apiKey = "89f3e06559f34cdfbfbf3d3c2f6f2ff0";
 const header = "https://newsapi.org/v2/";
 let CurRequest = header + `top-headlines?country=us&apiKey=${apiKey}`;
@@ -99,6 +101,6 @@ function LoadArticle(data){
     NewsList.appendChild(node);
 }
 
-function main(){
+function LoadMore(){
     DisplayBlockNews(CurRequest);
 }
