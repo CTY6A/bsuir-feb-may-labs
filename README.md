@@ -1,1 +1,1 @@
-# My lab 4 solution is [here](https://www.github.com/CTY6A/bsuir-feb-may-labs
+# My lab 4 solution is [here](https://www.github.com/CTY6A/bsuir-feb-may-labs)
